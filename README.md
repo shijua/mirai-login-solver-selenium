@@ -79,44 +79,38 @@ ticket 后那一坨就是要输入回 mirai 的内容
 
 **注意**
 - 复制的时候记得删掉引号(`"`, 前后都有一个), 那个不是ticket内容
-
 - 速度要快
-
 - 注意不要漏字符(没复制完, 后面还有很长)
   - 可以先开一次试一下手(不输入ticket) 然后重启进行滑块
-  
-  
+
+---
 
 方法 3:
 
-此方法针对于Macos + IOS, 与方法2操作类似。
+此方法针对于 `MacOS + IOS`, 与方法2操作类似。
 
-准备一台Mac电脑，准备一台手机，一条数据线（用于电脑和手机相连接）
+准备一台 Mac 电脑，准备一台手机，一条数据线（用于电脑和手机相连接）
 
-在Ios设备上进入设置->Safari->高级,找到`web inspector` 并开启
+在 IOS 设备上进入 `设置 -> Safari -> 高级`, 找到 `web inspector` 并开启
 
+![img7](./images/img7.png)
 
+在 MacOS 的 Safari 中找到 `偏好设置 -> 高级`，打开选项在菜单栏中显示开发
 
-<img src="./images/img7.png" alt="img7" style="zoom:33%;" />
+![img8](./images/img8.png)
 
+手机和电脑都打开 Safari 浏览器，在手机上复制URL并打开网页
 
+![img9](./images/img9.png)
 
-在MacOS的Safari中找到偏好设置->高级，打开选项在菜单栏中显示开发
-
-<img src="./images/img8.png" alt="img7" style="zoom:33%;" />
-
-手机和电脑都打开Safari浏览器，在手机上复制URL并打开网页
-
-<img src="./images/img9.png" alt="img7" style="zoom:33%;" />
-
-将手机和Mac之间用数据线连接
+将手机和 Mac 之间用数据线连接
 
 在开发中找到设备名称和打开的网页
 
-<img src="./images/img10.png" alt="img7" style="zoom:33%;" />
+![img10](./images/img10.png)
 
-打开后会出现Web Inpector，这时在手机上拖动滑块，拖动后在网络上搜索`cap_union_new_verify`的请求。
+打开后会出现 Web Inpector，这时在手机上拖动滑块，拖动后在网络上搜索 `cap_union_new_verify` 的请求。
 
-截取其中ticket的内容即可。
+截取其中 ticket 的内容即可。
 
-<img src="./images/img11.png" alt="img7" style="zoom:33%;" />
+![img11](./images/img11.png)
